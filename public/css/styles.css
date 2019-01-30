@@ -1,0 +1,253 @@
+
+
+html,body{
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.master_page{
+    width: 100%;
+    min-height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.left_sidebar{
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: #442B68;
+}
+
+.left_sidebar h4{
+    color: #F1F1F1;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.content_right{
+    width: 75%;
+    float: left;
+    height: 100vh;
+}
+
+.header{
+    background-color: #282C31;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.main_content{
+    width: 100%;
+    background-color: #F1F1F1;
+    height: 90%;
+}
+
+.form_admin{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.form_admin form label{
+    font-weight: 400;
+    color: 16px;
+}
+
+.form_admin form input{
+    border-radius: 20px;
+}
+
+.form_admin form input{
+    border-radius: 20px;
+}
+
+input:focus{
+    border :0px;
+    border-color: rgb(183, 215, 223) !important;
+}
+
+
+.form_admin button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #F1F1F1;
+    font-weight: 400;
+    background-color: rgba(92, 34, 30, 0.897);
+    border : 0px;
+    position: absolute;
+    width: 20%;
+}
+
+
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin-left: 10px;
+   }
+   
+   ::-ms-input-placeholder { /* Microsoft Edge */
+     color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
+    margin-left: 10px;
+   }
+
+
+   .admin_log{
+       position: absolute;
+       right: 50px;
+       top: 10px;;
+   }
+
+   .img_form{
+       width: 300px;
+       height: 300px;
+       border: 1px solid;
+   }
+
+   .img_form img{
+       width: 100%;
+       height: 100%;
+       transition: transform .2s;
+   }
+
+   .img_form img:hover{
+       transform: scale(1.5);
+   }
+
+   .list_admin{
+
+       padding: 20px;
+       text-align: center;
+   }
+
+   .list_admin table{
+       border:1px solid;
+   }
+
+   .admin_header{
+       position: absolute !important;
+       top: 10px !important;
+       right: 10px !important;
+       margin-left: 400px !important;
+   }
+   .login_admin{
+        margin-left: 115px !important;
+       margin-bottom: 30px !important;
+   }
+
+   .wrapper-admin-login{
+       margin-left: 30%;
+       margin-right: 30%;
+       margin-top: 18%;
+       border: 1px solid;
+       padding: 20px;
+       border-color: #442B68 !important;
+       border-radius: 10px;
+       background-color:  #442B68;
+   }
+   .wrapper-admin-login button{
+       width: 100%;
+       margin-top: 10px;
+   }
+
+   .wrapper-admin-login h4{
+       text-align: center;
+       font-size: 24px;
+       color: #F1F1F1;
+       font-weight: 500;
+   }
+
+   .background-admin-login{
+       background-image: none !important;
+   }
+
+
+   .adminLogin-container{
+       display: flex;
+       justify-content: center;
+        align-items: center;
+        height: 100vh;    
+       padding :20px;
+       flex-direction: column;
+ 
+       background-color: #20272F;
+
+   }
+
+   .adminLogin-title{
+       background-color: #16A450;
+       text-align: center;
+       color: #F1F1F1;
+       width: 400px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+       
+   }
+
+   .adminLogin-title h4{
+       font-size: 30px;
+       margin-top: 3px;
+       font-family: fantasy;
+   }
+
+   .adminLogin-container form{
+       width: 400px;
+       height: auto;
+       margin-top: 20px;
+   }
+
+   .adminLogin-container form input{
+       height: 50px;
+   }
+
+   .adminLogin-container button{
+       width: 100%;
+       background-color: #16A450;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       border: none;
+   }
+
+   .adminLogin-wrapper{
+       padding: 20px;
+       background-color: #EAEAEA;
+       border-radius: 5px;
+       letter-spacing: 0.6px;
+   }
+
+   .NoRight{
+       color: white;
+       margin-left: 40px;
+       margin-top: 40px;
+       font-family: fantasy;
+       
+
+   }
+
+   .NoRight p{
+       font-size: 24px;
+
+   }
+
+   .img_add{
+       width: 300px;
+       height: 300px;
+   }
+
+   .img_add img{
+       width: 100%;
+       height: 100%;
+   }
